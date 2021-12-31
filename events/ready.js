@@ -2,10 +2,10 @@ module.exports = (client,message,array) => {
     //FRAMEWORK
     console.log("ready")
     client.user.setPresence({ 
-        activity: { 
+        activities: [{ 
             name: "botsbypie",
             type: "WATCHING" 
-        }, 
+        }], 
         status: 'online' 
     });
     //FRAMEWORK
